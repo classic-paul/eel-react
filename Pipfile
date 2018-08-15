@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bottle = "*"
+bottle-websocket = "*"
+future = "*"
+gevent = "*"
+gevent-websocket = "*"
+greenlet = "*"
+cffi = "*"
+eel = {git = "https://github.com/pcp1976/Eel.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
